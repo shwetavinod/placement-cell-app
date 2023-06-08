@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".Admin_update_post">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#74322921"
+        app:cardCornerRadius="30dp"
+        android:layout_height="500dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:shadowColor="#AE9D8C"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:layout_marginBottom="20dp"
+                android:shadowRadius="2"
+                android:textStyle="bold"
+                android:textColor="#D0FFC107"
+                android:text="UPDATE" />
+
+            <EditText
+                android:id="@+id/post"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:editable="true"
+
+                android:padding="6dp"
+                android:drawablePadding="6dp"
+
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:hint="Firstname" />
+            <EditText
+                android:id="@+id/qualification"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+
+                android:hint="Lastname" />
+            <EditText
+                android:id="@+id/postfor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+
+                android:hint="Phone" />
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+
+                android:hint="Place" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

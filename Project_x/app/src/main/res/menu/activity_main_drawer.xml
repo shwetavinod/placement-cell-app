@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/admin_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:visible="false"
+            android:title="Home" />
+        <item
+            android:id="@+id/adminmanage_post"
+            android:icon="@drawable/ic_menu_gallery"
+            android:visible="false"
+            android:title="Add Post" />
+        <item
+            android:id="@+id/marklist"
+            android:icon="@drawable/ic_menu_gallery"
+            android:visible="false"
+            android:title="Marklist" />
+        <item
+            android:id="@+id/chatted_user"
+            android:icon="@drawable/ic_menu_gallery"
+            android:visible="false"
+            android:title="View Chats" />
+        <item
+            android:id="@+id/placed"
+            android:icon="@drawable/ic_menu_gallery"
+            android:visible="false"
+            android:title="View Placed" />
+
+        <item
+            android:id="@+id/adminviewapplied"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="Applied" />
+        <item
+            android:id="@+id/student_view_exam"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="View Exam" />
+        <item
+            android:id="@+id/adminviewexams"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="View Exams" />
+        <item
+            android:id="@+id/admin_view_exam_attended"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="Exam attended " />
+        <item
+            android:id="@+id/A_alumni"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="Users" />
+<!--        <item-->
+<!--            android:id="@+id/email"-->
+<!--            android:icon="@drawable/ic_menu_slideshow"-->
+<!--            android:visible="false"-->
+<!--            -->
+<!--            android:title="Send Emails" />-->
+        <item
+            android:id="@+id/adminenquiry"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="View Enquiry" />
+<!--        <item-->
+<!--            android:id="@+id/admin_view_exam_attended"-->
+<!--            android:icon="@drawable/ic_menu_slideshow"-->
+<!--            android:visible="false"-->
+<!--            android:title="Exam Attended" />-->
+
+        <item
+            android:id="@+id/student_view_post"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="View Post" />
+        <item
+            android:id="@+id/Student_send_enquiry"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="Send Enquiry" />
+        <item
+            android:id="@+id/student_view_applied"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="View Applied" />
+        <item
+            android:id="@+id/chat_admin"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="chat Admin" />
+        <item
+            android:id="@+id/stviewqns"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="View Questions" />
+        <item
+            android:id="@+id/staddwrking"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="Add qrking" />
+
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:visible="false"
+            android:title="LogOut" />
+
+    </group>
+</menu>

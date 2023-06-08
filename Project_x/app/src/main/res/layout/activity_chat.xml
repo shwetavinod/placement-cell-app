@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="#f5f5f5"
+    tools:context=".Chat">
+
+    <FrameLayout
+        android:id="@+id/layoutSend"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/background_chat_input"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/ic_send"
+            android:tint="@color/teal_700" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/inputMessage"
+        android:layout_width="326dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/background_chat_input"
+        android:hint="Type a message"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/material_dynamic_neutral50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/layoutSend"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/inputMessage2"
+        android:layout_width="200dp"
+        android:layout_height="37dp"
+        android:background="@drawable/background_chat_input"
+        android:backgroundTint="#ABEAAD"
+        android:hint="Hii, Aswathy here"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/material_dynamic_neutral50"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <EditText
+        android:id="@+id/inputMessage3"
+        android:layout_width="255dp"
+        android:layout_height="37dp"
+        android:background="@drawable/background_chat_input"
+        android:backgroundTint="#ABEAAD"
+        android:hint="Welcome to Sh Placement"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/material_dynamic_neutral50"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="42dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/arrow"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="178dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profilepic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="144dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Aswathy Alen Joby"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="42dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="169dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Online"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="11dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/greendot" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="67dp"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="67dp"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="612dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

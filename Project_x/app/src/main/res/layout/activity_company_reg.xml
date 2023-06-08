@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:gravity="center"
+    tools:context=".Company_reg">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#74322921"
+        app:cardCornerRadius="30dp"
+        android:layout_height="650dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:shadowColor="#AE9D8C"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:layout_marginBottom="20dp"
+                android:shadowRadius="2"
+                android:textStyle="bold"
+                android:textColor="#111D5E"
+                android:text="Register " />
+
+            <EditText
+                android:id="@+id/cname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:padding="6dp"
+                android:drawablePadding="6dp"
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:hint="company name" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+
+                android:hint="Phone" />
+            <EditText
+                android:id="@+id/place"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+
+                android:hint="Place" />
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+
+                android:hint="Email" />
+
+
+            <EditText
+                android:id="@+id/lno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10" android:padding="10dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:hint="License No." />
+
+
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+
+                android:textColor="#FFFFFF"
+                android:hint="username" />
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+
+                android:textColor="#FFFFFF"
+                android:inputType="textPassword"
+                android:textColorHint="#FFFFFF"
+                android:hint="Password"
+                />
+            <ImageButton
+                android:id="@+id/img_re"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:padding="6dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+
+                android:backgroundTint="#3F51B5"
+
+                android:text="REGISTER"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
